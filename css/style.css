@@ -254,8 +254,8 @@ footer .bottom-footer{margin-top: 555px;}
 
 
 @media screen and (max-width:768px){
-	footer .main-footer{padding-bottom: 50px;}
-	footer #logo{margin: 20px 0;}
+	footer .main-footer{float: none; margin-top: 10px;}
+	footer #logo{margin: 200px 0;}
 }
 
 /* ---------------------------------------------------------------------------- */
