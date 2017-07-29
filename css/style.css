@@ -256,8 +256,7 @@ footer .bottom-footer{margin-top: 555px;}
 @media all and (max-width: 768px){
 	.copyright{text-align: right;}
 	.copyright ul.quick-link{float: none;margin-top: 10px;}
-	.links{text-align: left;}
-	.links ul.quick-link{float: none;margin-top: 10px;}	
+	.links{text-align: left;}	
 }
 
 /* ---------------------------------------------------------------------------- */
