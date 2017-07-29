@@ -235,7 +235,7 @@ footer a:hover{color: #c2973c}
 footer .widget-title{text-transform: capitalize;margin-bottom: 30px; color: #C2973C;}
 
 footer .wrap-footer{padding: 35px 30px 0;}
-footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #777;}
+footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #c2973c;}
 footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
 footer ul.quicklinks li{position:relative;padding: 0 10px;}
 footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #777;height: 16px;top: 5px;padding-left: 10px;}
