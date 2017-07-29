@@ -228,6 +228,24 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
+
+
+#bottom {padding: 10px 0; color: #c2973c;background: #272727;border-top: 2px solid #c2973c;}
+#bottom .bottom-search{}
+#bottom ul.bottom-link {}
+
+.link{}
+.link a{display:inline-block;text-decoration:none;letter-spacing:1px; color: #c2973c;font-family: "Teko",serif;font-size: 18px;}
+.link a:hover{color:#fff}
+.link li:after{content: "-";padding: 0 10px;}
+.link li:last-child:after{content:'';padding:0px;display:none}
+ul.link li{padding: 0;margin: 0;}
+
+@media  (max-width: 767px){
+	
+}
+
+
 footer{text-align: center;}
 
 
