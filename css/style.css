@@ -248,7 +248,7 @@ footer .col-footer-3{}
 footer .col-footer-3 ul.social-buttons{}
 footer .col-footer-3 ul.social-buttons li a{font-size: 35px;margin: 15px;}
 
-footer .bottom-footer{margin-top: 650px;}
+footer .bottom-footer{margin-top: 500px;}
 .copyright{background: #1a1c1e;color: #777;padding: 20px;text-align: center;}
 
 @media all and (max-width: 768px){
