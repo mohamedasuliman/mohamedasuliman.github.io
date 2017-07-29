@@ -228,7 +228,11 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer{text-align: center;}
+footer{text-align: center; background: #171717;font-size: 14px;}
+
+footer a{color: #c2973c}
+footer a:hover{color: #fff}
+footer .widget-title{text-transform: capitalize;margin-bottom: 30px; color: #C2973C;}
 
 
 footer .wrap-footer{}
