@@ -228,34 +228,24 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer{text-align: center; background: #171717;font-size: 14px;}
-
-footer a{color: #c2973c}
-footer a:hover{color: #c2973c}
-footer .widget-title{text-transform: capitalize;margin-bottom: 30px; color: #C2973C;}
-
-footer .wrap-footer{padding: 35px 30px 0;}
-footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #c2973c;}
-footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
-footer ul.quicklinks li{position:relative;padding: 0 10px;}
-footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #c2973c;height: 16px;top: 5px;padding-left: 10px;}
-footer ul.quicklinks li:last-child:after{display: none;}
-footer ul.quicklinks li:first-child{padding-left: 0;}
-footer .col-footer-1 {}
-
-footer .col-footer-2 p{margin: 5px 0 0;}
-footer .col-footer-2 strong{font-size: 17px;}
-
-footer .col-footer-3{}
-footer .col-footer-3 ul.social-buttons{}
-footer .col-footer-3 ul.social-buttons li a{font-size: 35px;margin: 15px;}
-
-footer .bottom-footer{margin-top: 555px;}
+footer{text-align: center;}
 
 
-@media screen and (max-width:768px){
-	footer .main-footer{float: none; margin-top: 10px;}
-	footer #logo{margin: 200px 0;}
+footer .wrap-footer{}
+footer .main-footer:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
+
+footer .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
+
+footer .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;width: 30px;color: #c2973c;font-family: "FontAwesome";margin: 0;padding: 10px;position: absolute;text-align: center;top: 0;border: 1px solid #ccc;border-radius: 50%;}
+.left.contact-info::before{content: "\f017";right: 0;}
+.right.contact-info::before{content: "\f095";left: 0;}
+.left.contact-info{padding: 5px 70px 0 0;text-align: right;}
+.right.contact-info{padding: 5px 0 0 70px;text-align: left;}
+
+footer #logo{}
+@media screen and (max-width:767px){
+	footer .main-footer{padding-bottom: 50px;}
+	footer #logo{margin: 20px 0;}
 }
 
 /* ---------------------------------------------------------------------------- */
