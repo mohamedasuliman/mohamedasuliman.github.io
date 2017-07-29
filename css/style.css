@@ -230,7 +230,7 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 /* ---------------------------------------------------------------------------- */
 
 
-#bottom {padding: 10px 0; color: #c2973c;background: #272727;border-top: 2px solid #c2973c;}
+#bottom {padding: 100px 0; color: #c2973c;background: #272727;border-top: 2px solid #c2973c;}
 #bottom .bottom-search{}
 #bottom ul.bottom-link {}
 
@@ -250,7 +250,7 @@ footer{text-align: center;}
 
 
 footer .wrap-footer{}
-footer .main-footer:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
+footer .main-footer:before{position: relative;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
 
 footer .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
 
@@ -262,8 +262,8 @@ footer .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;wid
 
 footer #logo{}
 @media screen and (max-width:767px){
-	footer .main-footer{padding-bottom: 500px;}
-	footer #logo{margin: 200px 0;}
+	footer .main-footer{padding-bottom: 50px;}
+	footer #logo{margin: 20px 0;}
 }
 
 /* ---------------------------------------------------------------------------- */
