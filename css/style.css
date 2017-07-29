@@ -238,7 +238,7 @@ footer .wrap-footer{padding: 35px 30px 0;}
 footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #c2973c;}
 footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
 footer ul.quicklinks li{position:relative;padding: 0 10px;}
-footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #777;height: 16px;top: 5px;padding-left: 10px;}
+footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #c2973c;height: 16px;top: 5px;padding-left: 10px;}
 footer ul.quicklinks li:last-child:after{display: none;}
 footer ul.quicklinks li:first-child{padding-left: 0;}
 footer .col-footer-1 {}
