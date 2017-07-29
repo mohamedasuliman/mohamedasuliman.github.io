@@ -112,7 +112,7 @@ header{text-align: center;}
 
 
 header .wrap-header{}
-header .main-header{background: url(../images/me.jpg);background-size: cover;position: relative;overflow: hidden;padding: 120px 0;}
+header .main-header{background: url(../images/me.jpg);background-size: cover;position: relative;overflow: hidden;padding: 20px 0;}
 header .main-header:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
 
 header .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
