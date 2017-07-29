@@ -117,7 +117,7 @@ header .main-header:before{position: absolute;content: ""; height: 100%; width: 
 
 header .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
 
-header .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;width: 30px;color: #c2973c;font-family: "FontAwesome";margin: 0;padding: 10px;position: absolute;text-align: center;top: 0;border: 1px solid #ccc;border-radius: 50%;}
+header .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;width: 30px;color: #c2973c;font-family: "FontAwesome, academicons";margin: 0;padding: 10px;position: absolute;text-align: center;top: 0;border: 1px solid #ccc;border-radius: 50%;}
 .left.contact-info::before{content: "\f017";right: 0;}
 .right.contact-info::before{content: "\f095";left: 0;}
 .left.contact-info{padding: 5px 70px 0 0;text-align: right;}
@@ -254,7 +254,7 @@ footer .main-footer:before{position: absolute;content: ""; height: 100%; width: 
 
 footer .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
 
-footer .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;width: 30px;color: #c2973c;font-family: "FontAwesome";margin: 0;padding: 10px;position: absolute;text-align: center;top: 0;border: 1px solid #ccc;border-radius: 50%;}
+footer .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;width: 30px;color: #c2973c;font-family: "FontAwesome, academicons";margin: 0;padding: 10px;position: absolute;text-align: center;top: 0;border: 1px solid #ccc;border-radius: 50%;}
 .left.contact-info::before{content: "\f017";right: 0;}
 .right.contact-info::before{content: "\f095";left: 0;}
 .left.contact-info{padding: 5px 70px 0 0;text-align: right;}
