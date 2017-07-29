@@ -262,7 +262,7 @@ footer .contact-info::before {font-size: 23px;height: 30px;line-height: 30px;wid
 
 footer #logo{}
 @media screen and (max-width:767px){
-	footer .main-footer{padding-bottom: 500px;}
+	footer .main-footer{padding-bottom: 50px;}
 	footer #logo{margin: 20px 0;}
 }
 
