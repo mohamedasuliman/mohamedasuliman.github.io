@@ -238,9 +238,22 @@ footer .wrap-footer{padding: 70px 60px 0;}
 footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #777;}
 footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
 footer ul.quicklinks li{position:relative;padding: 0 10px;}
+footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #777;height: 16px;top: 5px;padding-left: 10px;}
+footer ul.quicklinks li:last-child:after{display: none;}
+footer ul.quicklinks li:first-child{padding-left: 0;}
+footer .col-footer-1 {}
+
+footer .col-footer-2 p{margin: 5px 0 0;}
+footer .col-footer-2 strong{font-size: 17px;}
+
+footer .col-footer-3{}
+footer .col-footer-3 ul.social-buttons{}
+footer .col-footer-3 ul.social-buttons li a{font-size: 35px;margin: 15px;}
+
+footer .bottom-footer{margin-top: 555px;}
 
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
 	footer .main-footer{padding-bottom: 50px;}
 	footer #logo{margin: 20px 0;}
 }
