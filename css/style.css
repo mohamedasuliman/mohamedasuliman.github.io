@@ -250,7 +250,7 @@ footer{text-align: center;}
 
 
 footer .wrap-footer{}
-footer .main-footer:before{position: relative;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
+footer .main-footer:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .5);top: 0;left: 0;right: 0;bottom: 0;}
 
 footer .contact-info{padding: 0 46px 0 0;color: #acb4b6;display: inline-block;font-size: 12px;line-height: 20px;position: relative;}
 
