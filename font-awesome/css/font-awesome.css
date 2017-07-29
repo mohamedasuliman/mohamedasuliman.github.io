@@ -367,6 +367,14 @@
 .fa-picture-o:before {
   content: "\f03e";
 }
+
+.fa-researchgate:before {
+  content: "\e854";
+}
+.fa-researchgate-square:before {
+  content: "\e855";
+}
+
 .fa-pencil:before {
   content: "\f040";
 }
